@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlayStation Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: #003791;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    button {
+      background: #003791;
+      color: white;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>PlayStation Store</h1>
+  <p>Welcome to our gaming store</p>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>PlayStation Games</h2>
+    <p>Discover your next favorite game.</p>
+    <button>View Games</button>
+  </div>
+
+  <div class="card">
+    <h2>PlayStation Accessories</h2>
+    <p>Controllers, headsets and more.</p>
+    <button>View Accessories</button>
+  </div>
+
+</div>
+
+</body>
+</html>
